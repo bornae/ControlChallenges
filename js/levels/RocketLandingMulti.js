@@ -12,6 +12,11 @@ Levels.RocketLandingMulti = function()
 	this.models.push(new Models.RocketLanding({TWR: 2,theta: 0,dtheta: -0.1,Length: 40,Width: 5,x: 100,dx: 20,y: 300,dy: -10,T: 0}));
 	this.models.push(new Models.RocketLanding({TWR: 2,theta: 0,dtheta: 0,   Length: 40,Width: 5,x: -180,dx: 50,y: 60,dy: 0,T: 0}));
 	this.models.push(new Models.RocketLanding({TWR: 2,theta: 3.14,dtheta: -2,   Length: 40,Width: 5,x: -180,dx: 0,y: 300,dy: 0,T: 0}));
+	this.models.push(new Models.RocketLanding({TWR: 2,theta: 1,dtheta: 0,   Length: 40,Width: 5,x: -180,dx: 0,y: 300,dy: 0,T: 0}));
+	this.models.push(new Models.RocketLanding({TWR: 2,theta: 3.14,dtheta: 0,   Length: 40,Width: 5,x: -180,dx: 0,y: 300,dy: 0,T: 0}));
+	this.models.push(new Models.RocketLanding({TWR: 2,theta: 2.14,dtheta: 2,   Length: 40,Width: 5,x: -80,dx: 0,y: 300,dy: 0,T: 0}));
+	this.models.push(new Models.RocketLanding({TWR: 2,theta: 3.14,dtheta: 0,   Length: 40,Width: 5,x: 180,dx: 0,y: 300,dy: 0,T: 0}));
+
 }
 
 
